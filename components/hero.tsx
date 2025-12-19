@@ -30,9 +30,9 @@ export function Hero() {
   return (
     <section id="home" className="container mx-auto px-4 pt-16 pb-20 md:pb-32 max-w-5xl">
       <div>
-        <div className="mb-6 font-sans text-xl font-bold text-secondary tracking-wider transition-all duration-500">{greetings[currentGreeting].text} 🍃</div>
+        <div className="mb-6 font-sans text-lg font-bold text-secondary tracking-wider transition-all duration-500">{greetings[currentGreeting].text} 🍃</div>
 
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">
+        <h1 className="text-3xl font-bold mb-10 text-balance">
           <span className="text-foreground">Hi, I'm </span>
           <span className="text-primary">Daffa.</span>
         </h1>
@@ -40,11 +40,11 @@ export function Hero() {
         <div className="bg-radial bg-amber-100/25 rounded-md px-4 py-5 mb-3 border border-foreground dark:border-none dark:bg-transparent dark:px-0">
           {/* Title */}
           <div className="mb-4">
-            <p className="text-xl md:text-2xl text-primary font-bold dark:text-white">About Me</p>
+            <p className="text-lg md:text-xl text-primary font-bold dark:text-white">About Me</p>
           </div>
 
           {/* Description */}
-          <p className="text-lg text-foreground mb-8 leading-relaxed text-justify dark:text-white">
+          <p className="text-foreground mb-8 tracking-wide text-justify dark:text-white">
             I'm honestly still figuring out what niche programmer I am but let just go with <span className="font-semibold">fullstack dev</span> because that's what I've been doing since 2023. It started because I'm curious about{" "}
             <span className="font-semibold">how the data go from front page to database</span>. Mainly code in PHP though lately I've been using Javascript to follow the markets.
             <br className="mb-3" />

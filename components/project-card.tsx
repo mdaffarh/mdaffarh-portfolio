@@ -61,7 +61,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
               <CardTitle className="text-xl font-sans text-foreground group-hover:text-primary transition-colors">{project.title}</CardTitle>
             </div>
           </div>
-          <CardDescription className="text-foreground/70">
+          <CardDescription className="text-foreground/70 tracking-wide">
             {project.description.length > maxLength ? (
               <>
                 {project.description.slice(0, maxLength)}...{" "}
