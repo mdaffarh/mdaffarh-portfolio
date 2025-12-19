@@ -46,7 +46,7 @@ export function Hero() {
           {/* Description */}
           <p className="text-lg text-foreground mb-8 leading-relaxed text-justify dark:text-white">
             I'm honestly still figuring out what niche programmer I am but let just go with <span className="font-semibold">fullstack dev</span> because that's what I've been doing since 2023. It started because I'm curious about{" "}
-            <span className="font-semibold">how the data go from front page to database</span> (also because my friends didn't do their part). Mainly code in PHP though lately I've been using Javascript to follow the markets.
+            <span className="font-semibold">how the data go from front page to database</span>. Mainly code in PHP though lately I've been using Javascript to follow the markets.
             <br className="mb-3" />
             Right now, I'm a third year Computer Science student at UPI while also doing some project in organizations. I take speciality in <span className="font-semibold">Software Engineering which introduce me to QA and Testing</span>,
             it's a weird things because for onetime I'm not create anything but to evaluate it, I guess it's good to <span className="font-semibold">try a new thing right?.</span>
