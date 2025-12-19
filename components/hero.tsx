@@ -28,7 +28,7 @@ export function Hero() {
   }, [])
 
   return (
-    <section id="home" className="container mx-auto px-4 pt-16 pb-20 md:pb-32 max-w-5xl">
+    <section id="home" className="container mx-auto px-4 pt-16 pb-8 max-w-5xl">
       <div>
         <div className="mb-6 font-sans text-lg font-bold text-secondary tracking-wider transition-all duration-500">{greetings[currentGreeting].text} 🍃</div>
 
@@ -44,15 +44,20 @@ export function Hero() {
           </div>
 
           {/* Description */}
-          <p className="text-foreground mb-8 tracking-wide text-justify dark:text-white">
-            I'm honestly still figuring out what niche programmer I am but let just go with <span className="font-semibold">fullstack dev</span> because that's what I've been doing since 2023. It started because I'm curious about{" "}
-            <span className="font-semibold">how the data go from front page to database</span>. Mainly code in PHP though lately I've been using Javascript to follow the markets.
-            <br className="mb-3" />
-            Right now, I'm a third year Computer Science student at UPI while also doing some project in organizations. I take speciality in <span className="font-semibold">Software Engineering which introduce me to QA and Testing</span>,
-            it's a weird things because for onetime I'm not create anything but to evaluate it, I guess it's good to <span className="font-semibold">try a new thing right?.</span>
-            <br className="mb-3" />
-            People might think I'm all serious but I'm just quiet to most of the time because I need some times to feel comfortable enough to unleash my yapping-slash-clown mode. I'm not a really tech-bros that always update about new things but I'm still like talking about tech. I also like Chappell Roan if that's important.
-          </p>
+          <div className="mb-3 flex flex-col gap-y-4 text-[15px] lg:text-base">
+            <p className="text-foreground tracking-wide text-justify dark:text-white">
+              I'm honestly still figuring out what niche programmer I am but let just go with <span className="font-semibold">fullstack dev</span> because that's what I've been doing since 2023. It started because I'm curious about{" "}
+              <span className="font-semibold">how the data go from front page to database</span>. Mainly code in PHP though lately I've been using Javascript to follow the markets.
+            </p>
+            <p className="text-foreground tracking-wide text-justify dark:text-white">
+              Right now, I'm a third year Computer Science student at UPI while also doing some project in organizations. I take speciality in <span className="font-semibold">Software Engineering which introduce me to QA and Testing</span>,
+              it's a weird things because for onetime I'm not create anything but to evaluate it, I guess it's good to <span className="font-semibold">try a new thing right?.</span>
+            </p>
+            <p className="text-foreground tracking-wide text-justify dark:text-white">
+              People might think I'm all serious but I'm just quiet to most of the time because I need some times to feel comfortable enough to unleash my yapping-slash-clown mode. I'm not a really tech-bros that always update about new
+              things but I'm still like talking about tech. I also like Chappell Roan if that's important.
+            </p>
+          </div>
         </div>
 
         {/* CTA Buttons */}

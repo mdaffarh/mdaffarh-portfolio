@@ -42,7 +42,7 @@ export async function Projects() {
   const projects = await getProjects()
 
   return (
-    <section id="projects" className="container mx-auto px-4 py-20 max-w-5xl">
+    <section id="projects" className="container mx-auto px-4 pt-12 max-w-5xl">
       <div className="mb-12">
         <div className="text-base text-primary mb-4 tracking-wide">Here's some projects I've come across along the adventure!</div>
         <h2 className="text-3xl md:text-4xl font-bold text-foreground">Selected Works</h2>
