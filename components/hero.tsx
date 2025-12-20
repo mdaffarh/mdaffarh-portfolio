@@ -32,9 +32,10 @@ export function Hero() {
       <div>
         <div className="mb-6 font-sans text-lg font-bold text-secondary tracking-wider transition-all duration-500">{greetings[currentGreeting].text} 🍃</div>
 
-        <h1 className="text-3xl font-bold mb-10 text-balance">
+        <h1 className="text-xl mb-10 text-balance">
           <span className="text-foreground">Hi, I'm </span>
-          <span className="text-primary">Daffa.</span>
+          <span className="text-primary font-semibold">Daffa </span>
+          <span className="text-primary">Rizmawan.</span>
         </h1>
 
         <div className="bg-radial bg-amber-100/25 rounded-md px-4 py-5 mb-3 border border-foreground dark:border-none dark:bg-transparent dark:px-0">
@@ -47,7 +48,7 @@ export function Hero() {
           <div className="mb-3 flex flex-col gap-y-4 text-[15px] lg:text-base">
             <p className="text-foreground tracking-wide text-justify dark:text-white">
               I'm honestly still figuring out what niche programmer I am but let just go with <span className="font-semibold">fullstack dev</span> because that's what I've been doing since 2023. It started because I'm curious about{" "}
-              <span className="font-semibold">how the data go from front page to database</span>. Mainly code in PHP though lately I've been using Javascript to follow the markets.
+              <span className="font-semibold">how the data go from front page to database</span> and I sort of went deep down from there. I mainly code in PHP though lately I've been using Javascript to follow the markets.
             </p>
             <p className="text-foreground tracking-wide text-justify dark:text-white">
               Right now, I'm a third year Computer Science student at UPI while also doing some project in organizations. I take speciality in <span className="font-semibold">Software Engineering which introduce me to QA and Testing</span>,
@@ -55,7 +56,7 @@ export function Hero() {
             </p>
             <p className="text-foreground tracking-wide text-justify dark:text-white">
               People might think I'm all serious but I'm just quiet to most of the time because I need some times to feel comfortable enough to unleash my yapping-slash-clown mode. I'm not a really tech-bros that always update about new
-              things but I'm still like talking about tech. I also like Chappell Roan if that's important.
+              things but I'm still like talking about tech.
             </p>
           </div>
         </div>

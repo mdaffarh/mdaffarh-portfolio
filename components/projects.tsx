@@ -44,8 +44,8 @@ export async function Projects() {
   return (
     <section id="projects" className="container mx-auto px-4 pt-12 max-w-5xl">
       <div className="mb-12">
-        <div className="text-base text-primary mb-4 tracking-wide">Here's some projects I've come across along the adventure!</div>
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground">Selected Works</h2>
+        <div className="text-[15px] lg:text-base text-primary mb-4 tracking-wide">Here's some projects I've come across along the adventure!</div>
+        <h2 className="text-xl md:text-4xl font-bold text-foreground">Selected Works</h2>
         <div className="h-1 w-20 bg-primary mt-4"></div>
       </div>
 

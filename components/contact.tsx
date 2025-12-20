@@ -4,8 +4,8 @@ export function Contact() {
   return (
     <section id="contact" className="container mx-auto px-4 py-20 max-w-5xl">
       <div className="max-w-2xl">
-        <div className="text-base text-primary mb-4 tracking-wide">Incase you miss it, here's my contact.</div>
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Get In Touch</h2>
+        <div className="text-[15px] lg:text-base text-primary mb-4 tracking-wide">Incase you miss it, here's my contact.</div>
+        <h2 className="text-xl md:text-4xl font-bold mb-6 text-foreground">Get In Touch</h2>
         <p className="text-foreground/80 mb-8 tracking-wide">I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
         <div className="space-y-4">
           <a href="mailto:daffarizmawan@gmail.com" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors group">
