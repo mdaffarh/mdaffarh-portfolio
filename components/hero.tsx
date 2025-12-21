@@ -84,7 +84,7 @@ export function Hero() {
           <a href="mailto:daffarizmawan@gmail.com" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Email">
             <Mail className="h-5 w-5" />
           </a>
-          <a href="https://drive.google.com/file/d/1wjQA80hmC3tDXNuEEgXsc-NwpkUs59Vp/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="CV">
+          <a href="https://drive.google.com/file/d/14vpS2NvOgi_pNf0zP4B2Hh7Z9TeYNi5A/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="CV">
             <FileText className="h-5 w-5" />
           </a>
         </div>

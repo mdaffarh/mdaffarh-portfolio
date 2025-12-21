@@ -22,7 +22,7 @@ export function Contact() {
             <Linkedin className="h-5 w-5 text-primary" />
             <span className="font-mono">linkedin.com/in/daffa-rizmawan</span>
           </a>
-          <a href="https://drive.google.com/file/d/1wjQA80hmC3tDXNuEEgXsc-NwpkUs59Vp/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors group">
+          <a href="https://drive.google.com/file/d/14vpS2NvOgi_pNf0zP4B2Hh7Z9TeYNi5A/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors group">
             <FileText className="h-5 w-5 text-primary" />
             <span className="font-mono">Access My CV</span>
           </a>
