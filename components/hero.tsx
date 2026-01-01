@@ -51,7 +51,8 @@ export function Hero() {
             <p className="text-foreground tracking-wide text-justify dark:text-white">
               <div className="float-left mr-2 mb-1">
                 <div className="relative w-32 h-32 dark:border-2 border-primary overflow-hidden bg-background">
-                  <img src="/ava-porto.gif" alt="Avatar" className="w-full h-full object-cover pixelated" />
+                  <img src="/avatar.gif" alt="Avatar" className="dark:hidden w-full h-full object-cover pixelated" />
+                  <img src="/avatar-dark.gif" alt="Avatar" className="hidden dark:block w-full h-full object-cover pixelated" />
                 </div>
               </div>
               I'm honestly still figuring out what niche programmer I am but let just go with <span className="font-semibold">fullstack dev</span> because that's what I've been doing since 2023. It started because I'm curious about{" "}
