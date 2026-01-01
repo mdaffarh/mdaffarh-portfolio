@@ -126,24 +126,15 @@
 
 /* Forest/woody gradient with browns, greens, and warm tones */
 .gradient-bg {
-  background: linear-gradient(
-    135deg,
-    rgb(245, 242, 235) 0%,
-    rgb(201, 188, 169) 20%,
-    rgb(169, 211, 103) 40%,
-    rgb(57, 124, 83) 60%,
-    rgb(125, 70, 48) 80%,
-    rgb(201, 188, 169) 100%
-  );
+  background: linear-gradient(135deg, rgb(245, 242, 235) 0%, rgb(201, 188, 169) 20%, rgb(169, 211, 103) 40%, rgb(57, 124, 83) 60%, rgb(125, 70, 48) 80%, rgb(201, 188, 169) 100%);
   background-size: 400% 400%;
   animation: gradient-shift 25s ease infinite;
 }
 
 /* Mesh gradient with forest and earth tones */
 .mesh-gradient {
-  background: radial-gradient(at 20% 30%, rgba(169, 211, 103, 0.2) 0px, transparent 50%),
-    radial-gradient(at 80% 70%, rgba(57, 124, 83, 0.25) 0px, transparent 50%),
-    radial-gradient(at 40% 80%, rgba(125, 70, 48, 0.15) 0px, transparent 50%),
+  background:
+    radial-gradient(at 20% 30%, rgba(169, 211, 103, 0.2) 0px, transparent 50%), radial-gradient(at 80% 70%, rgba(57, 124, 83, 0.25) 0px, transparent 50%), radial-gradient(at 40% 80%, rgba(125, 70, 48, 0.15) 0px, transparent 50%),
     radial-gradient(at 60% 20%, rgba(201, 188, 169, 0.2) 0px, transparent 50%);
 }
 
@@ -201,4 +192,11 @@
   content: "🍃";
   font-size: 16px;
   filter: blur(0.5px);
+}
+
+/* Pixel art rendering for GIFs */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
 }
