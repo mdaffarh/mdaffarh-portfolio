@@ -4,6 +4,9 @@ import { Projects } from "@/components/projects"
 import { Contact } from "@/components/contact"
 import { ThemeToggle } from "@/components/theme-toggle"
 
+// Revalidate this page every 60 seconds (ISR)
+export const revalidate = 60
+
 export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden">

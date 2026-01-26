@@ -34,7 +34,12 @@ async function getProjects(): Promise<Project[]> {
     order
   }`
 
-  const projects = await client.fetch(query)
+  const projects = await client.fetch(query, {}, {
+    next: {
+      tags: ['projects'], // Cache tag for targeted revalidation
+      revalidate: 60, // Fallback: revalidate every 60 seconds
+    }
+  })
   return projects
 }
 

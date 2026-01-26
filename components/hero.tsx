@@ -48,7 +48,7 @@ export function Hero() {
 
           {/* Description */}
           <div className="mb-3 flex flex-col gap-y-4 text-[15px] lg:text-base">
-            <p className="text-foreground tracking-wide text-justify dark:text-white">
+            <div className="text-foreground tracking-wide text-justify dark:text-white">
               <div className="float-left mr-2 mb-1">
                 <div className="relative w-32 h-32 dark:border-2 border-primary overflow-hidden bg-background">
                   <img src="/avatar.gif" alt="Avatar" className="dark:hidden w-full h-full object-cover pixelated" />
@@ -57,7 +57,7 @@ export function Hero() {
               </div>
               I'm honestly still figuring out what niche programmer I am but let just go with <span className="font-semibold">fullstack dev</span> because that's what I've been doing since 2023. It started because I'm curious about{" "}
               <span className="font-semibold">how the data go from front page to database</span> and I sort of went deep down from there. I mainly code in PHP though lately I've been using Javascript to follow the markets.
-            </p>
+            </div>
             <p className="text-foreground tracking-wide text-justify dark:text-white">
               Right now, I'm a third year Computer Science student at UPI while also doing some project in organizations. I take speciality in <span className="font-semibold">Software Engineering which introduce me to QA and Testing</span>,
               it's a weird things because for onetime I'm not create anything but to evaluate it, I guess it's good to <span className="font-semibold">try a new thing right?.</span>
