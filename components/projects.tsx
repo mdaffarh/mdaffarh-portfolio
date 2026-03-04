@@ -18,6 +18,7 @@ interface Project {
 async function getProjects(): Promise<Project[]> {
   const query = `*[_type == "project"] | order(
     coalesce(order, 999) asc,
+    defined(endDate) asc,
     coalesce(endDate, startDate) desc,
     startDate desc
   ) {
@@ -34,12 +35,16 @@ async function getProjects(): Promise<Project[]> {
     order
   }`
 
-  const projects = await client.fetch(query, {}, {
-    next: {
-      tags: ['projects'], // Cache tag for targeted revalidation
-      revalidate: 60, // Fallback: revalidate every 60 seconds
-    }
-  })
+  const projects = await client.fetch(
+    query,
+    {},
+    {
+      next: {
+        tags: ["projects"], // Cache tag for targeted revalidation
+        revalidate: 60, // Fallback: revalidate every 60 seconds
+      },
+    },
+  )
   return projects
 }
 
