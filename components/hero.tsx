@@ -55,16 +55,20 @@ export function Hero() {
                   <img src="/avatar-dark.gif" alt="Avatar" className="hidden dark:block w-full h-full object-cover pixelated" />
                 </div>
               </div>
-              I'm honestly still figuring out what niche programmer I am but let just go with <span className="font-semibold">fullstack dev</span> because that's what I've been doing since 2023. It started because I'm curious about{" "}
-              <span className="font-semibold">how the data go from front page to database</span> and I sort of went deep down from there. I mainly code in PHP though lately I've been using Javascript to follow the markets.
+              I'm honestly still figuring out what niche programmer I am but let just go with <span className="font-semibold">fullstack dev</span> because I like working with both UI and backends. Most of my experience is working with
+              Laravel and React, some Java maybe but right now I'm learning-slash-working on <span className="font-semibold">microservices</span> with Dotnet as an intern in{" "}
+              <a href="https://erraipasifik.com/" className="hover:underline transition-all" target="_blank" rel="noopener noreferrer">
+                Errai Pasifik
+              </a>
+              .
             </div>
             <p className="text-foreground tracking-wide text-justify dark:text-white">
-              Right now, I'm a third year Computer Science student at UPI while also doing some project in organizations. I take speciality in <span className="font-semibold">Software Engineering which introduce me to QA and Testing</span>,
-              it's a weird things because for onetime I'm not create anything but to evaluate it, I guess it's good to <span className="font-semibold">try a new thing right?.</span>
+              I'm also a third year Computer Science student at UPI that take speciality in <span className="font-semibold">Software Engineering.</span> Over the years I also did some project for organization while maintaining decent
+              grades. People might think I'm all serious but I'm just quiet to most of the time because I need some times to feel comfortable enough to unleash my yapping-slash-clown mode. I'm not a really tech-bros that always update about
+              new things but I'm still like talking about tech. And idk what else I like Chappell Roan, Laufey, Genshin, Harry Potter, Dune, and caffein.
             </p>
             <p className="text-foreground tracking-wide text-justify dark:text-white">
-              People might think I'm all serious but I'm just quiet to most of the time because I need some times to feel comfortable enough to unleash my yapping-slash-clown mode. I'm not a really tech-bros that always update about new
-              things but I'm still like talking about tech.
+              - April 15th, 2026. 11:32 AM
             </p>
           </div>
         </div>

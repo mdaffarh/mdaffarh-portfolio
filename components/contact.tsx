@@ -32,7 +32,7 @@ export function Contact() {
       {/* Footer */}
       <div className="mt-20 pt-8 border-t border-border/50">
         <p className="text-sm text-muted-foreground font-mono text-center">
-          © 2025 Built with 💚 by{" "}
+          © 2026 Built with 💚 by{" "}
           <span className="hover:underline hover:font-bold">
             <a href="https://instagram.com/m_daffarh" rel="noopener noreferrer" target="_blank">
               Naksu
